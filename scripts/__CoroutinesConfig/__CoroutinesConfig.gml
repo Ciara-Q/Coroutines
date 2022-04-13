@@ -15,7 +15,7 @@
 #macro COROUTINES_DELAY_REALTIME  true
 
 // Controls the default cancellation behaviour for coroutines when their creator is
-// destroyed or garbage collected. Whether or not a specific coroutines is cancelled
+// destroyed or garbage collected. Whether or not a specific coroutine is cancelled
 // when orphaned can also be controlled using the .CancelWhenOrphaned() method.
 // 
 // N.B. A deactivated instance counts as a non-existent instance.
